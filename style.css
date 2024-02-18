@@ -1,0 +1,129 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color: #FCFCFC;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.auth-left{
+    width: 50%;
+    height: 700px;
+    background-color: #FFFFFF;
+    /* border: 1px solid grey; */
+    border-radius: 10px;
+    padding: 50px;
+    float: left;
+    box-shadow: 3px 0px 8px -3px rgba(34, 60, 80, 0.2);
+}
+
+.auth-left h1{
+    color: #100F14;
+}
+
+.have-account{
+    color: #100F14;
+    color: #9794AA;
+}
+
+.have-account a{
+    color: #407BFF;
+    font-weight: 500;
+}
+
+.auth-left input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #9794AA;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-name{
+    color: #9794AA;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.create-account {
+    width: 100%;
+    height: 40px;
+    background-color: #407BFF;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.line1{
+    width: 40%;
+    height: 1px;
+    background-color: #9794AA;
+    float: left;
+    margin-top: 10px;
+}
+
+.or{
+    width: 10%;
+    height: 50px;
+    float: left;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    text-align: center;
+    padding: 0 30px;
+    color:#9794AA;
+}
+
+.line2{
+    width: 40%;
+    height: 1px;
+    background-color: #9794AA;
+    float: right;
+    margin-top: 10px;
+}
+
+.google{
+    width: 40%;
+    height: 40px;
+    background-color: none;
+    border: 1px solid #FF3D00;
+    color: #FF3D00;
+    border-radius: 6px;
+    float: left;
+}
+
+.facebook{
+    width: 40%;
+    height: 40px;
+    background-color: none;
+    border: 1px solid #1877F2;
+    color:#1877F2;
+    border-radius: 6px;
+    float: right;
+}
+
+.padding-right{
+    padding-right: 20px;
+}
+
+.auth-right{
+    width: 50%;
+    height: 650px;
+    float: left;
+    margin-top: 50px;
+    background-image: url("Work\ in\ progress-cuate\ 1.svg");
+    background-size: cover;
+    /* padding: 50px; */
+}
